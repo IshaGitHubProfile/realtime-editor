@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Real Time Code Editor
+## Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Real-Time Code Editor is a collaborative web-based code editor that allows multiple users to edit the same code simultaneously in real-time. It is built using React, Node.js, Express.js, and Socket.io.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Real-time code editing with multiple users.
+- Syntax highlighting for popular programming languages.
 
-### `npm start`
+## Screenshots 
+![Screenshot (166)](https://github.com/IshaGitHubProfile/realtime-editor/assets/143515190/1134dee6-a4d2-42fa-a1bc-2fb0c6561dd3)
+![Screenshot (167)](https://github.com/IshaGitHubProfile/realtime-editor/assets/143515190/2c6f6b2b-f237-49e7-856e-9ff01ee9e7ce)
+![Screenshot (168)](https://github.com/IshaGitHubProfile/realtime-editor/assets/143515190/25f148ea-f3aa-4ef9-bc12-939f743630f5)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Clone the repository :
+   
+   git clone https://github.com/your_username/real-time-code-editor.git
 
-### `npm run build`
+### 2. Install Dependencies :
+   
+   cd real-time-code-editor
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. Start the server :
+   
+   Copy code
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   npm start
 
-### `npm run eject`
+   Navigate to http://localhost:3000 in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Create or join a room.
+Start collaborating in real-time!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React
 
-## Learn More
+Node.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Express.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Socket.io
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+CodeMirror
